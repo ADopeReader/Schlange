@@ -4,7 +4,7 @@ import android.annotation.SuppressLint;
 import android.graphics.Canvas;
  
 public class GameLoopThread extends Thread {
-    static final long FPS = 20;
+    static final long FPS = 35;
     private GameView theView;
     private boolean isRunning = false;
  
